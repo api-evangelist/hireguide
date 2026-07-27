@@ -1,19 +1,49 @@
 aid: hireguide
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hireguide.png
 name: Hireguide
-description: Hireguide is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hireguide is a structured-interviewing and hiring-intelligence platform, originally
+  a Techstars-backed startup, that helped talent teams run consistent, evidence-based
+  interviews with guided question banks, scorecards, interview recording and AI-assisted
+  candidate evaluation grounded in industrial-organizational hiring science. Hireguide's
+  team and technology were acquired by HireVue in 2026; the primary domain now
+  redirects to HireVue's AI Interviewer platform, while trust.hireguide.com remains
+  live and Hireguide-branded, publishing the company's compliance posture (SOC 2 Type 2,
+  GDPR, CCPA, EU AI Act, NIST AI RMF). This profile was added to the API Evangelist
+  network as a Techstars portfolio lead; no independent public developer/API surface
+  was found for Hireguide.
 url: https://raw.githubusercontent.com/api-evangelist/hireguide/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+x-acquired-by: hirevue
+x-acquired-year: '2026'
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-acquired
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hiring
+- Recruiting
+- Interviewing
+- Talent Acquisition
+- HR Tech
+- AI
+- Structured Interviews
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/hireguide-trust-center.yml
+- type: Compliance
+  url: https://trust.hireguide.com/
+- type: DomainSecurity
+  url: security/hireguide-domain-security.yml
 - type: Website
-  url: https://hireguide.com/
+  url: https://www.hireguide.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

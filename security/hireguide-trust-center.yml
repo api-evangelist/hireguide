@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.hireguide.com/
+url: https://trust.hireguide.com/
+certifications:
+- SOC 2 Type 2
+- GDPR
+- CCPA
+- EU AI Act
+- NIST AI RMF
+evidence:
+- source: https://trust.hireguide.com/
+  keywords:
+  - soc 2 type 2
+  - trust center
+  - gdpr
+  - ccpa
+  - eu ai act
+  - nist ai rmf
